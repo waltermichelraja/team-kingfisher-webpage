@@ -75,13 +75,13 @@ section{
 .links{
     text-align: center;
     padding-top: 5px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 .links a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
     color: #0ABDE3;
-    padding: 0 12px;
+    padding: 0 8px;
 }
 .links a:hover{
     color: #f4f4f4;
@@ -92,13 +92,13 @@ section{
 .icons{
     text-align: center;
     padding-top: 5px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 .icons a{
     text-decoration: none;
     font-size: 20px;
     color: #0ABDE3;
-    padding: 0 14px;
+    padding: 0 10px;
     transition-duration: 0.5s;
     transition-property: transform;
 }
