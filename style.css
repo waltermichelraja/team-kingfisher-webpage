@@ -8,12 +8,13 @@ body,html{
     word-spacing: 0px;
 }
 
+
 .image1{
-    background-image: url(./images/back-ground-1.jpg);
+    background-image: url(./images/kingfisher-bg.png);
     min-height: 100%;
 }
 .image2{
-    background-image: url(./images/back-ground-2.jpg);
+    background-image: url(./images/kingfisher-bg.png);
     min-height: 100%;
 }
 .image1,.image2{
@@ -26,6 +27,7 @@ body,html{
     align-items: center;
     justify-content: center;
 }
+
 
 .header{
     text-align: center;
@@ -43,6 +45,7 @@ body,html{
     transform: scale(1.1);
 }
 
+
 section{
     text-align: center;
     padding: 50px 80px;
@@ -56,11 +59,35 @@ section{
     color: #D3D3D3;
 }
 
-.socials{
-    padding: 16px;
+
+.clans{
+    padding: 5px;
     font-size: 20px;
     font-weight: normal;
 }
+.socials{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+.links{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.links a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #0ABDE3;
+    padding: 0 12px;
+}
+.links a:hover{
+    color: #f4f4f4;
+    transform: scale(1.5);
+}
+
 
 .icons{
     text-align: center;
@@ -69,7 +96,7 @@ section{
 }
 .icons a{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #0ABDE3;
     padding: 0 14px;
     transition-duration: 0.5s;
