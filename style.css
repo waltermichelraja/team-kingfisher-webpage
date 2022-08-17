@@ -10,12 +10,15 @@ body,html{
 
 
 .image1{
-    background-image: url(./images/kingfisher-bg.png);
-    min-height: 100%;
+    background-image: url(./images/kingfisher-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 .image2{
-    background-image: url(./images/kingfisher-bg.png);
-    min-height: 100%;
+    background-image: url(./images/kingfisher-bg.jpg);
+    min-height: 50%;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .image1,.image2{
     position: relative;
